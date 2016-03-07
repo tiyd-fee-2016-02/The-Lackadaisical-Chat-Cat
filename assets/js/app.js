@@ -8,7 +8,7 @@ $(function () {
       for(var i = 0; i < userInput.length; i++){
 
         if (userInput[i].value == ""){
-          $("ul").append("<li class='response'>An empty box? Seems like a great place to lie down... If you actually want something useful to happen you should actually input something.</li>")
+          $("ul").append("<li class='response'>An empty box? Seems like a great place to lie down... If you want something useful to happen you should actually input something.</li>")
           return;
         }
 
