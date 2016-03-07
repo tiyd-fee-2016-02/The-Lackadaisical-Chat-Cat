@@ -22,7 +22,7 @@ header{
 }
 
 input{
-  margin-left: 300px;
+  margin-left: 35%;
   font-size: 14px;
   line-height: 1.5em;
   width: 25%;
@@ -61,23 +61,69 @@ img{
 
 @media (max-width: 1000px){
   input{
-    margin-left: 28%;
-    width: 40%;
-    min-width: 200px;
+    margin-left: 200px;
+    width: 300px;
   }
   ul {
     margin-left: 20%;
   }
-
-@media (max-width: 600){
-  input{
-    margin-left: 20px;
-    width: 50%;
-    min-width: 300px;
+  li{
+    width: 400px;
   }
   .container{
-    min-width: 3000px;
+    width: 725px;
   }
+}
 
 
+@media (max-width: 810px){
+  input{
+    margin-left: 150px;
+    width: 250px;
+  }
+  ul {
+    margin-left: 15%;
+  }
+  li{
+    width: 320px;
+  }
+  .container{
+    width: 580px;
+  }
+}
+
+@media (max-width: 645px){
+  input{
+    margin-left: 100px;
+    width: 250px;
+  }
+  ul {
+    margin-left: 8%;
+  }
+  li{
+    width: 320px;
+  }
+  .container{
+    width: 450px;
+  }
+}
+
+@media (max-width: 500px){
+  input{
+    margin-left: 50px;
+    width: 225px;
+  }
+  ul {
+    margin-left: 3%;
+  }
+  .response{
+    min-width: 0px;
+  }
+  li{
+    width: 290px;
+    min-width: 0px;
+  }
+  .container{
+    width: 350px;
+  }
 }
