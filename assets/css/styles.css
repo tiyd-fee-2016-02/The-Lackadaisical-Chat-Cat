@@ -1,0 +1,45 @@
+body{
+  font-family: "Lato", Arial, sans-serif;
+  background: #ccc;
+}
+
+header{
+  font-size: 32px;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+  background: #aaa;
+}
+
+.container{
+  background: #ddd;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 3px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input{
+  margin-left: 37%;
+  font-size: 14px;
+  line-height: 1.5em;
+  width: 25%;
+  min-width: 175px;
+}
+
+ul{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+li{
+  background: #999;
+  border-radius: 3px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  min-width: 350px;
+  margin-top: 20px;
+}
