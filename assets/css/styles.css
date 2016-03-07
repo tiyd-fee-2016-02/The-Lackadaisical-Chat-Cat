@@ -22,7 +22,7 @@ header{
 }
 
 input{
-  margin-left: 37%;
+  margin-left: 300px;
   font-size: 14px;
   line-height: 1.5em;
   width: 25%;
@@ -53,4 +53,31 @@ li{
   padding-bottom: 8px;
   min-width: 350px;
   margin-top: 20px;
+}
+
+img{
+  height: 150px;
+}
+
+@media (max-width: 1000px){
+  input{
+    margin-left: 28%;
+    width: 40%;
+    min-width: 200px;
+  }
+  ul {
+    margin-left: 20%;
+  }
+
+@media (max-width: 600){
+  input{
+    margin-left: 20px;
+    width: 50%;
+    min-width: 300px;
+  }
+  .container{
+    min-width: 3000px;
+  }
+
+
 }

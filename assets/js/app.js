@@ -39,9 +39,18 @@ $(function () {
         var background = userInput[i].value.toLowerCase().replace("@bg", "")
         $('.container').css("background-color", background)
       }
+      else if (userInput[i].value.toLowerCase().includes("@github")){
+        var user = userInput[i].value.toLowerCase().replace("@github ", "")
+        $.getJSON("http://api.github.com/users/" + user, function(data){
+          console.log(data);
+          $("ul").append("<li class='response'>" + data.name + "<br><br>" + data.location + "<br><br>" + "<img src="+data.avatar_url+">" + "</li>")
+      });
+
+      }
       else{
         $("ul").append("<li class='response'>Type @help u 4 hints hooman</li>")
       }
+
 
     }
 
