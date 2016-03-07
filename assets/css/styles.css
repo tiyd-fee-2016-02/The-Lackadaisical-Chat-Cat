@@ -35,7 +35,18 @@ ul{
 }
 
 li{
-  background: #999;
+  background: #aaa;
+  border-radius: 3px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  min-width: 350px;
+  margin-top: 20px;
+}
+
+.response {
+  background: #555;
+  color: white;
   border-radius: 3px;
   padding-left: 12px;
   padding-top: 8px;
