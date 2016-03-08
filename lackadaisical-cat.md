@@ -15,3 +15,17 @@ what are you?
 /@bg
 /@calc
 /@github
+
+
+
+MULTI FILE SETUP
+
+IN MAIN
+
+atGithub()
+
+IN SECONDARY FILE NAMED atGithub
+
+function atGithub(){
+
+}
