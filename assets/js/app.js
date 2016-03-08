@@ -32,6 +32,18 @@ $(function () {
           window.setTimeout(function(){
           $("ul").append("<li class='response'>yeah... you do need some help... you forgot the @ sign...</li>")}, 1500)
         }
+        else if (userInput[i].value.toLowerCase() == "who are you?"){
+          window.setTimeout(function(){
+          $("ul").append("<li class='response'>I r majestic lackadaisical chat kat, bow 2 mah majesty and gimme a fish.</li>")}, 1500)
+        }
+        else if (userInput[i].value.toLowerCase() == "how are you?"){
+          window.setTimeout(function(){
+          $("ul").append("<li class='response'>I'm tird, u wouldnt happen 2 has cardboard box 4 me 2 nap in wud u?</li>")}, 1500)
+        }
+        else if (userInput[i].value.toLowerCase() == "what are you?"){
+          window.setTimeout(function(){
+          $("ul").append("<li class='response'>Is not obvious? I'm Kat.</li>")}, 1500)
+        }
         else if (userInput[i].value.toLowerCase().includes("@calc")){
           var time = userInput[i].value.toLowerCase().replace("@calc", "")
           window.setTimeout(function(){
