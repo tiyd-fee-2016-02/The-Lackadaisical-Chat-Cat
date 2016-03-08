@@ -48,7 +48,7 @@ $(function () {
 
       }
       else{
-        $("ul").append("<li class='response'>Type @help u 4 hints hooman</li>")
+        $("ul").append("<li class='response'>Type @help 4 hints u hooman</li>")
       }
 
 
