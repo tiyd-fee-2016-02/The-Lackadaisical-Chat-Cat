@@ -59,6 +59,9 @@ $(function () {
         else if (userInput[i].value.toLowerCase().includes("@giphy")){
             atGiphy();
         }
+        else if (userInput[i].value.toLowerCase().includes("@spotify")){
+            atSpotify();
+        }
         else{
           $("ul").append("<li class='response'>Type @help 4 hints u hooman</li>")
         }

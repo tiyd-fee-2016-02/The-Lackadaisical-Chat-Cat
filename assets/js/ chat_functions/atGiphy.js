@@ -4,7 +4,7 @@ function atGiphy() {
   var userInput = $("input");
   for(var i = 0; i < userInput.length; i++){
 
-  var gif = userInput[i].value.toLowerCase().replace("@giphy ", "")
+  var gif = userInput[i].value.toLowerCase().replace("@giphy ", "", "", "", "", "", "", "", "", "")
     // $("ul").append("<li class='response'><img src=http://api.giphy.com/v1/gifs/search?q=" + gif + "?&api_key=dc6zaTOxFJmzC&limit=1&fmt=html></li>")
   $.getJSON("http://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=dc6zaTOxFJmzC&limit=1", function(data){
     console.log(data.data[0].images.original.url);
