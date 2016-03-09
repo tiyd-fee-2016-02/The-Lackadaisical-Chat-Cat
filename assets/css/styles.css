@@ -59,6 +59,10 @@ img{
   height: 150px;
 }
 
+.place-holder{
+  background: #ddd;
+}
+
 @media (max-width: 1000px){
   input{
     margin-left: 200px;
